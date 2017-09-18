@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script type="text/javascript" src="./slider/bootstrap-slider.min.js"></script>
+    <script type="text/javascript" src="./js/popup.js"></script>
+    <link rel="stylesheet" type="text/css" href="./css/popup.css" />
+    <link rel="stylesheet" type="text/css" href="./bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="./slider/css/bootstrap-slider.min.css" />
+  </head>
+  <body>
+    <h1>Step Motion</h1>
+    <p>Select time to backward / forward:</p>
+    <form>
+      <label for="enabled">
+        <input id="enabled" name= "enabled" type="checkbox"/>
+        Enable StepMotion
+      </label>
+      <input id="stepTime" data-slider-id='secSlider' type="text" data-slider-min="0" data-slider-max="60" data-slider-step="1" data-slider-value="3"/>
+    </form>
+  </body>
+</html>
